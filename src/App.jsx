@@ -29,7 +29,7 @@ import editGraphReport from "./images/Editgraphreport2x.png";
 import appLogoInspiration from "./images/Applogoinspiraton672x.png";
 import maskGroup from "./images/Maskgroup2x.png";
 import logoShapes from "./images/Logoshapes302x.png";
-import ellipse9 from "./images/Ellipse9.png";
+import ellipse9 from "./images/Ellipse9x.png";
 import logoShapes41 from "./images/Logoshapes412x.png";
 import logoShapes51 from "./images/Logoshapes512x.png";
 import standardCollection from "./images/Standardcollection172x.png";
