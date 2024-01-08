@@ -4,45 +4,45 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
 import vector2x from "./images/vector@2x.png";
-import b2x from "./images/b@2x.png";
-import gooseberry from "./images/gooseberry-logo@2x.png";
-import intro2024 from "./images/intro2024-2@2x.png";
-import discoLight from "./images/disco-lights-background@2x.png";
-import personalGrowth from "./images/personal-growth@2x.png";
-import rectangle93 from "./images/rectangle-93@2x.png";
-import rectangle92 from "./images/rectangle-92@2x.png";
-import vision from "./images/vision@2x.png";
-import goal from "./images/goal@2x.png";
-import qiblaDirection from "./images/qibla-direction@2x.png";
-import projectManagement from "./images/project-management@2x.png";
-import guarantee from "./images/guarantee@2x.png";
-import analyze from "./images/analyze@2x.png";
-import passFail from "./images/pass-fail@2x.png";
-import codeFail from "./images/code-file@2x.png";
-import dataProvider from "./images/data-provider@2x.png";
-import environment from "./images/environment@2x.png";
-import test from "./images/test@2x.png";
-import websiteBug from "./images/website-bug@2x.png";
-import testPassed from "./images/test-passed@2x.png";
-import syncSettings from "./images/sync-settings@2x.png";
-import editGraphReport from "./images/edit-graph-report@2x.png";
-import appLogoInspiration from "./images/app-logo-inspiraton-67@2x.png";
-import maskGroup from "./images/mask-group@2x.png";
-import logoShapes from "./images/logo-shapes-30@2x.png";
-import ellipse9 from "./images/ellipse9.png";
-import logoShapes41 from "./images/logo-shapes-41@2x.png";
-import logoShapes51 from "./images/logo-shapes-51@2x.png";
-import standardCollection from "./images/standard-collection-17@2x.png";
-import mountainLake from "./images/mountain-lake@2x.png";
-import rectangle62 from "./images/rectangle-62@2x.png";
-import rectangle56 from "./images/rectangle-56@2x.png";
-import rectangle57 from "./images/rectangle-57@2x.png";
-import vector4 from "./images/vector4.png";
-import vector5 from "./images/vector5.png";
-import vector6 from "./images/vector6.png";
-import vector7 from "./images/vector7.png";
-import vector8 from "./images/vector8.png";
-import contactBg from "./images/background-with-swirls-and-shapes@2x.png";
+import b2x from "./images/B2x.png";
+import gooseberry from "./images/Gooseberrylogo2x.png";
+import intro2024 from "./images/Intro202422x.png";
+import discoLight from "./images/Discolightsbackground2x.png";
+import personalGrowth from "./images/Personalgrowth2x.png";
+import rectangle93 from "./images/Rectangle932x.png";
+import rectangle92 from "./images/Rectangle922x.png";
+import vision from "./images/Vision2x.png";
+import goal from "./images/Goal2x.png";
+import qiblaDirection from "./images/Qibladirection2x.png";
+import projectManagement from "./images/Projectmanagemen2x.png";
+import guarantee from "./images/Guarantee2x.png";
+import analyze from "./images/Analyze2x.png";
+import passFail from "./images/Passfail2x.png";
+import codeFail from "./images/Codefile2x.png";
+import dataProvider from "./images/Dataprovider2x.png";
+import environment from "./images/Environment2x.png";
+import test from "./images/Test2x.png";
+import websiteBug from "./images/Websitebug2x.png";
+import testPassed from "./images/Testpassed2x.png";
+import syncSettings from "./images/Syncsettings2x.png";
+import editGraphReport from "./images/Editgraphreport2x.png";
+import appLogoInspiration from "./images/Applogoinspiraton672x.png";
+import maskGroup from "./images/Maskgroup2x.png";
+import logoShapes from "./images/Logoshapes302x.png";
+import ellipse9 from "./images/Ellipse9.png";
+import logoShapes41 from "./images/Logoshapes412x.png";
+import logoShapes51 from "./images/Logoshapes512x.png";
+import standardCollection from "./images/Standardcollection172x.png";
+import mountainLake from "./images/Mountainlake2x.png";
+import rectangle62 from "./images/Rectangle622x.png";
+import rectangle56 from "./images/Rectangle562x.png";
+import rectangle57 from "./images/Rectangle572x.png";
+import vector4 from "./images/Vector4.png";
+import vector5 from "./images/Vector5.png";
+import vector6 from "./images/Vector6.png";
+import vector7 from "./images/Vector7.png";
+import vector8 from "./images/Vector8.png";
+import contactBg from "./images/Backgroundwithswirlsandshapes2x.png";
 const App = () => {
   const [loading, setLoading] = useState(false);
   const onCTextClick = useCallback(() => {
@@ -80,11 +80,6 @@ const App = () => {
       anchor.scrollIntoView({ block: "start", behavior: "smooth" });
     }
   }, []);
-
-  // const onNameText5Click = useCallback(() => {
-  //   // window.location.href = "mailto:info@icrew-tech.com";
-  //   window.location.href = "rajdevullash111@gmail.com";
-  // }, []);
   // State to manage form data
   const [formData, setFormData] = useState({
     name: "",
@@ -732,12 +727,11 @@ const App = () => {
         <p className="m-0 text-gold-200">&nbsp;</p>
         <p className="m-0 text-gray">Happy to Connect with You.</p>
       </b>
-      {/* <div className="absolute top-[5810px] left-[1059px] [background:linear-gradient(180deg,_#3da9fc,_rgba(217,_217,_217,_0))] w-[360px] h-[794px]" /> */}
-      {/* <b className="absolute top-[5828px] left-[calc(50%_+_318px)] text-13xl leading-[40px] inline-block text-center w-[171px]">{`<Hello!>`}</b> */}
+
       <form onSubmit={handleSubmit}>
         <div className="absolute top-[5810px] left-[1059px] [background:linear-gradient(180deg,_#3da9fc,_rgba(217,_217,_217,_0))] w-[360px] h-[794px]" />
         <b className="absolute mt-5 top-[5828px] left-[calc(50%_+_318px)] text-13xl leading-[40px] inline-block text-center w-[171px]">{`<Hello!>`}</b>
-        {/* Other elements in your design */}
+
         <div className="absolute mt-[20px] top-[5889px] left-[1089px] w-[300px] h-[120px] overflow-hidden text-xl text-gold-200">
           <b className="absolute h-[33.33%] w-full top-[0.83%] left-[0%] leading-[40px] inline-block">
             Name
@@ -780,24 +774,7 @@ const App = () => {
             />
           </div>
         </div>
-        {/* <div className="absolute mt-[400px] top-[5889px] left-[1089px] w-[300px] h-[120px] overflow-hidden text-xl text-gold-200">
-          <b className="absolute h-[33.33%] w-full top-[0.83%] left-[0%] leading-[40px] inline-block">
-            Write your message here
-          </b>
-          <div className="absolute w-full top-[40px] right-[0%] left-[0%] rounded-6xs bg-white box-border overflow-hidden flex flex-col items-start justify-start pt-2.5 px-[15px] pb-2 text-lightgray border-[1px] border-solid border-gainsboro-100">
-            <div className="rounded-6xs bg-white box-border w-[300px] overflow-hidden flex flex-col items-start justify-start pt-2.5 px-[15px] pb-2 text-lightgray border-[1px] border-solid border-gainsboro-100">
-              <div className="relative w-px h-[120px]">
-                <textarea
-                  name="message"
-                  value={formData.message}
-                  onChange={handleInputChange}
-                  // style={{ height: "200px !important" }}
-                  className="self-stretch leading-[40px] w-full border-none outline-none bg-transparent resize-none"
-                />
-              </div>
-            </div>
-          </div>
-        </div> */}
+
         <div className="absolute top-[6288px] left-[1089px] w-[300px] overflow-hidden flex flex-col items-start justify-start text-xl text-gold-200">
           <b className="relative leading-[40px] inline-block w-[300px] h-10 shrink-0">
             Write Your Message Here
@@ -815,21 +792,8 @@ const App = () => {
             <div className="relative w-px h-[20px]" />
           </div>
         </div>
-        {/* <button type="submit" className="absolute top-[20px] left-[5px]">
-          Submit
-        </button> */}
       </form>
-      {/* <div className="absolute top-[6288px] left-[1089px] w-[300px] overflow-hidden flex flex-col items-start justify-start text-xl text-gold-200">
-        <b className="relative leading-[40px] inline-block w-[300px] h-10 shrink-0">
-          Write Your Message Here
-        </b>
-        <div className="rounded-6xs bg-white box-border w-[300px] overflow-hidden flex flex-col items-start justify-start pt-2.5 px-[15px] pb-2 text-lightgray border-[1px] border-solid border-gainsboro-100">
-          <b className="self-stretch relative leading-[40px]">
-            Write Your Message Here
-          </b>
-          <div className="relative w-px h-[120px]" />
-        </div>
-      </div> */}
+
       <b className="absolute top-[5756px] left-[1181px] text-17xl text-black">{`<Contact Us>`}</b>
       <div className="absolute top-[6642px] left-[0px] bg-gainsboro-200 w-[1512px] h-[359px]" />
       <div className="absolute top-[6674px] left-[768px] text-black whitespace-pre-wrap inline-block w-[651px] text-29xl">
